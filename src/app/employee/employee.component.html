@@ -1,75 +1,10 @@
-<!-- <div class="col-md-6 offset-md-3 mt-3">
-  <div class="card">
-    <h4 class="card-header">Welcome back!</h4>
-    <div class="card-body">
-      <form [formGroup]="idForm" (ngSubmit)="getCustomer()">
-        <div class="form-group">
-          <input
-            type="text"
-            class="form-control"
-            formControlName="userid"
-            name="userid"
-            id="userid"
-            placeholder="Enter an userid"
-          />
-        </div>
-        <button
-          type="submit"
-          style="display: inline-block; margin-right: 60px"
-          class="btn btn-primary"
-          (click)="getCustomer()"
-        >
-          Get Customer
-        </button>
-        <button
-          class="btn btn-primary"
-          (click)="createCustomer()"
-          style="display: inline-block"
-        >
-          Create New Customer
-        </button>
-      </form>
-
-      <hr />
-      <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
-      <div *ngIf="isLoaded && !loading">
-        <b>Userid: {{ customer.userid }}</b> <br /><br />
-      </div>
-      <table
-        class="table table-striped table-inverse table-responsive"
-        *ngIf="isLoaded"
-      >
-        <thead class="thead-dark">
-          <tr>
-            <th>User</th>
-            <th>Date of Birth</th>
-            <th>PAN</th>
-            <th>Address</th>
-            <th>Accounts</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td scope="row">{{ customer.username }}</td>
-            <td>{{ customer.dateOfBirth }}</td>
-            <td>{{ customer.pan }}</td>
-            <td>{{ customer.address }}</td>
-            <td><a (click)="viewAccounts(customer.userid)">View accounts</a></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div> -->
-
-
 <div id="wrapper">
 
-  <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+  <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion backgroundgradient p-0">
     <div class="container-fluid d-flex flex-column p-0"><a
         class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
-        <div class="sidebar-brand-icon rotate-n-15"><em class="fas fa-laugh-wink"></em></div>
-        <div class="sidebar-brand-text mx-2"><span>MFPE BANK</span></div>
+        
+        <div class="sidebar-brand-text mx-2"><span>ABC BANK</span></div>
       </a>
       <hr class="sidebar-divider my-0">
       <ul class="navbar-nav text-light" id="accordionSidebar">
@@ -83,7 +18,7 @@
 
     </div>
   </nav>
-  <div class="d-flex flex-column" id="content-wrapper">
+  <div class="d-flex flex-column contentview" id="content-wrapper">
     <div id="content">
       <br>
       <div class="container-fluid">

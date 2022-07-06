@@ -1,55 +1,10 @@
-<!-- <div class="col-md-8 offset-md-3 mt-3">
-  <div class="card">
-    <h4 class="card-header">Deposit</h4>
-    <div class="card-body">
-      <form (ngSubmit)="deposit()" [formGroup]="depositForm">
-        <div class="form-group">
-          <label for="accountid">Enter account number</label>
-          <input
-            type="number"
-            formControlName="accountid"
-            id="accountid"
-            class="form-control"
-            name="accountid"
-            [ngClass]="{ 'is-invalid': submitted && f.accountid.errors }"
-          />
-          <div *ngIf="submitted && f.accountid.errors" class="invalid-feedback">
-            <div *ngIf="f.accountid.errors.required">Account ID required</div>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="amount">Enter amount</label>
-          <input
-            type="number"
-            formControlName="amount"
-            id="amount"
-            class="form-control"
-            name="amount"
-            [ngClass]="{ 'is-invalid': submitted && f.amount.errors }"
-          />
-          <div *ngIf="submitted && f.amount.errors" class="invalid-feedback">
-            <div *ngIf="f.amount.errors.required">Amount required</div>
-          </div>
-        </div>
-        <button [disabled]="loading" class="btn btn-primary">
-          <span
-            *ngIf="loading"
-            class="spinner-border spinner-border-sm mr-1"
-          ></span>
-          Deposit
-        </button>
-      </form>
-    </div>
-  </div>
-</div> -->
 <div id="wrapper">
 
-  <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-info p-0">
+  <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion backgroundgradient p-0">
     <div class="container-fluid d-flex flex-column p-0"><a
         class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
-        <div class="sidebar-brand-icon rotate-n-15"><em class="fas fa-laugh-wink"></em></div>
-        <div class="sidebar-brand-text mx-2"><span>MFPE BANK</span></div>
+        
+        <div class="sidebar-brand-text mx-2"><span>ABC BANK</span></div>
       </a>
       <hr class="sidebar-divider my-0">
       <ul class="navbar-nav text-light" id="accordionSidebar">
@@ -70,7 +25,7 @@
 
     </div>
   </nav>
-  <div class="d-flex flex-column" id="content-wrapper">
+  <div class="d-flex flex-column contentview" id="content-wrapper">
     <div id="content">
       <br>
       <br>

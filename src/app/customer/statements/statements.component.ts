@@ -9,7 +9,8 @@ import { first } from 'rxjs/operators';
 
 @Component({
   selector: 'app-statements',
-  templateUrl: './statements.component.html'
+  templateUrl: './statements.component.html',
+  styleUrls:['./statements.component.css']
 })
 export class StatementsComponent implements OnInit {
 

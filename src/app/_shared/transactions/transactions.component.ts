@@ -8,7 +8,7 @@ import { first } from "rxjs/operators";
 @Component({
   selector: "app-transactions",
   templateUrl: "./transactions.component.html",
-  styleUrls: ["./transactions.component.less"],
+  styleUrls: ["./transactions.component.css"],
 })
 export class TransactionsComponent implements OnInit {
   loading = false;

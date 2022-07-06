@@ -1,54 +1,9 @@
-<!-- <div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
-      <table
-        class="
-          table table-bordered table-striped table-inverse table-responsive
-        "
-        *ngIf="!loading"
-      >
-        <thead class="thead-inverse">
-          <tr>
-            <th>Trasaction id</th>
-            <th>From</th>
-            <th>To</th>
-            <th>Type</th>
-            <th>Amount</th>
-            <th>Date</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let transaction of transactions">
-            <td scope="row">{{ transaction.id }}</td>
-            <td>
-              {{ transaction.sourceOwnerName }} ({{
-                transaction.sourceAccountId
-              }})
-            </td>
-            <td>
-              {{ transaction.targetOwnerName }} ({{
-                transaction.targetAccountId
-              }})
-            </td>
-            <td>{{ transaction.reference }}</td>
-            <td>{{ transaction.amount }}</td>
-            <td>{{ transaction.initiationDate.substring(0, 10) }}</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div> -->
-
-
-
 <div id="wrapper">
-  <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+  <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion background p-0">
     <div class="container-fluid d-flex flex-column p-0"><a
         class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
-        <div class="sidebar-brand-icon rotate-n-15"><em class="fas fa-laugh-wink"></em></div>
-        <div class="sidebar-brand-text mx-2"><span>MFPE BANK</span></div>
+        
+        <div class="sidebar-brand-text mx-2"><span>ABC BANK</span></div>
       </a>
       <hr class="sidebar-divider my-0">
       <ul class="navbar-nav text-light" id="accordionSidebar">
@@ -63,7 +18,7 @@
     </div>
   </nav>
 
-  <div class="d-flex flex-column" id="content-wrapper">
+  <div class="d-flex flex-column contentview" id="content-wrapper">
     <div id="content">
 
       <br>

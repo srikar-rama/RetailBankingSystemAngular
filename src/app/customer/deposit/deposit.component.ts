@@ -9,6 +9,7 @@ import { first } from "rxjs/operators";
 @Component({
   selector: "app-deposit",
   templateUrl: "./deposit.component.html",
+  styleUrls:['./deposit.component.css']
 })
 export class DepositComponent implements OnInit {
   depositForm: FormGroup;

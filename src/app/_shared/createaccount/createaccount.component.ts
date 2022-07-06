@@ -11,7 +11,7 @@ import { first } from "rxjs/operators";
 @Component({
   selector: "app-createaccount",
   templateUrl: "./createaccount.component.html",
-  styleUrls: ["./createaccount.component.less"],
+  styleUrls: ["./createaccount.component.css"],
 })
 export class CreateAccountComponent implements OnInit {
   createAccountForm: FormGroup;

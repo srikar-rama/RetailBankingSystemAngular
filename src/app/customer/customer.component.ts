@@ -5,6 +5,7 @@ import { AuthenticationService } from "@app/_services";
 @Component({
   selector: "app-customer",
   templateUrl: "./customer.component.html",
+  styleUrls:['./customer.component.css']
 })
 export class CustomerComponent implements OnInit {
   constructor(private router: Router, private route: ActivatedRoute, private authenticationService: AuthenticationService) {}
